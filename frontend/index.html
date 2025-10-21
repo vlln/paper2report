@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArXiv to Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ArXiv to Report</h1>
+            <p>Intelligently interprets ArXiv papers and generates a structured report.</p>
+        </header>
+        <main>
+            <form id="arxiv-form">
+                <input type="text" id="arxiv-url" placeholder="Enter ArXiv URL or ID (e.g., 2502.12345)" required>
+                <button type="submit">Analyze</button>
+            </form>
+            <div id="loader">
+                <div class="spinner"></div>
+                <p>Analyzing your paper... this may take a moment.</p>
+            </div>
+            <div id="error-message" class="hidden"></div>
+        </main>
+        <footer>
+            <p>&copy; 2025 Paper2Report. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

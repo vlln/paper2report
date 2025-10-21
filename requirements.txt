@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+httpx
+pydantic
+pydantic-ai-slim[google]
+pydantic-settings
+requests
+PyMuPDF
+jinja2
+opencv-python-headless==4.12.0.88
+pytest
+pytest-asyncio
